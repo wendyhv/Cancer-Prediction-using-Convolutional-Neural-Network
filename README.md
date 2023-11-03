@@ -1,1 +1,2 @@
-# Cancer-Prediction-using-Convolutional-Neural-Network
+# Uterine-Cancer-Prediction
+Uterine Cancer Prediction using CNN
