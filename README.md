@@ -30,7 +30,10 @@ from keras.layers import Conv2D, MaxPooling2D, Flatten, Dense
 
 from scipy.stats import chi2_contingency # Used for statistical testing in a contingency table
 ```
+# Data Sources
 # EDA
+Random samples of gene mutations and non-genes in TCGA-UCEC
+<img width="1520" alt="Screenshot 2023-11-03 at 7 37 10 PM" src="https://github.com/wendyhv/Cancer-Prediction-using-Convolutional-Neural-Network/assets/149440642/7e8302b2-d96a-44cd-b6f7-f86d35c35ff4">
 # Model Architecture
 # Model Performance
 # Acknowledgements
