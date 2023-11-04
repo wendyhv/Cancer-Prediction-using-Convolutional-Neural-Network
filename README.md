@@ -3,7 +3,7 @@ Uterine Cancer Prediction using CNN
 # Overview
 # Import Libraries
 To run the code, open the Cancer_Prediction.ipynb file.
-'# Import necessary libraries
+`# Import necessary libraries
 import numpy as np
 import pandas as pd
 import cv2
@@ -17,8 +17,7 @@ import glob  # Used for file locations
 from PIL import Image  # Used for image processing
 from skimage.transform import resize  # Used for resizing images
 import copy  # Used for creating copies of objects
-import matplotlib.pyplot as plt  # Used for plotting'
-
+import matplotlib.pyplot as plt  # Used for plotting`
 # EDA
 # Model Architecture
 # Model Performance
