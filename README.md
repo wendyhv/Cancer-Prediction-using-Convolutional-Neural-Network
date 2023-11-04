@@ -3,18 +3,7 @@ Uterine Cancer Prediction using CNN
 # Overview
 # Import Libraries
 To run the code, open the Cancer_Prediction.ipynb file.
-import numpy as np
-import pandas as pd
-import cv2
-from google.colab.patches import cv2_imshow
-from skimage import io
-!pip install pydicom
-import pydicom
-import glob
-from PIL import Image
-from skimage.transform import resize
-import copy
-import matplotlib.pyplot as plt
+https://colab.research.google.com/drive/1czl7t-g1ht9rxC3OGF2LCvTJlRZi4wzB#scrollTo=0c5rRoKUWOsD&line=1&uniqifier=1
 # Data Sources
 # EDA
 # Model Architecture
