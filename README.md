@@ -3,10 +3,33 @@ Uterine Cancer Prediction using CNN
 # Overview
 # Import Libraries
 To run the code, open the Cancer_Prediction.ipynb file.
+```
+# Import necessary libraries
+import numpy as np
+import pandas as pd
+import cv2
+from google.colab.patches import cv2_imshow
+from skimage import io
 
-`# Import necessary libraries`
+# Install pydicom package, which is used for handling DICOM files
+!pip install pydicom
+import pydicom
+import glob  # Used for file locations
+from PIL import Image  # Used for image processing
+from skimage.transform import resize  # Used for resizing images
+import copy  # Used for creating copies of objects
+import matplotlib.pyplot as plt  # Used for plotting
 
+# Set IPython to display all outputs from a cell (not just the last one)
+from IPython.core.interactiveshell import InteractiveShell
 
+# Import machine learning libraries
+from sklearn.model_selection import train_test_split
+from keras.models import Sequential
+from keras.layers import Conv2D, MaxPooling2D, Flatten, Dense
+
+from scipy.stats import chi2_contingency # Used for statistical testing in a contingency table
+```
 # EDA
 # Model Architecture
 # Model Performance
