@@ -6,21 +6,15 @@ To run the code, open the Cancer_Prediction.ipynb file.
 import numpy as np
 import pandas as pd
 import cv2
+from google.colab.patches import cv2_imshow
 from skimage import io
 !pip install pydicom
 import pydicom
 import glob
 from PIL import Image
-from skimage. transform import resize
+from skimage.transform import resize
 import copy
-import matplotlib. pyplot as plt
-from IPython.core.interactiveshell import InteractiveShell
-InteractiveShell.ast_node_interactivity="all"
-from sklearn.model_selection import train_test_split
-from keras.models import Sequential
-from keras.layers import Conv2D, MaxPooling2D, Flatten, Dense
-import numpy as np
-from scipy.stats import chi2_contingency
+import matplotlib.pyplot as plt
 # Data Sources
 # EDA
 # Model Architecture
