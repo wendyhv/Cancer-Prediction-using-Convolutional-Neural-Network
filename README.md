@@ -31,6 +31,7 @@ from keras.layers import Conv2D, MaxPooling2D, Flatten, Dense
 from scipy.stats import chi2_contingency # Used for statistical testing in a contingency table
 ```
 # Data Sources
+The Cancer Genome Atlas Uterine Corpus Endometrial Carcinoma (TCGA-UCEC) data collection forms part of a broader initiative focused on fostering a research community dedicated to understanding the connection between cancer characteristics and genetic makeup.  This goal is achieved by providing clinical images paired with subjects from The Cancer Genome Atlas (TCGA).  Clinical, genetic, and pathological data are stored on the Genomic Data Commons (GDC) Data Portal, while radiological data is specifically archived in The Cancer Imaging Archive (TCIA).  Accessing and downloading the inventory file containing all UCEC data from The Cancer Genome Atlas can be further facilitated through the TCIA radiology portal.
 # EDA
 Random samples of gene mutations and non-genes in TCGA-UCEC
 <img width="1520" alt="Screenshot 2023-11-03 at 7 37 10 PM" src="https://github.com/wendyhv/Cancer-Prediction-using-Convolutional-Neural-Network/assets/149440642/7e8302b2-d96a-44cd-b6f7-f86d35c35ff4">
