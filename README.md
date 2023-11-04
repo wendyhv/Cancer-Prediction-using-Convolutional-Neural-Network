@@ -1,6 +1,9 @@
 # Uterine-Cancer-Prediction
 Uterine Cancer Prediction using CNN
 # Overview
+Uterine Corpus Endometrial Carcinoma, also commonly referred to as endometrial cancer, is one of the most common malignant tumors of the female reproductive system, occurring in the endometrium of the uterus. Timely detection and intervention play a crucial role in enhancing the prognosis and outcomes for individuals afflicted with endometrial carcinoma. The Hippo pathway is a highly sophisticated mechanism that has evolved across various species to maintain the balance of tissues by overseeing processes like cell growth, specialization, and programmed cell death. Its key components, including LATS1, LATS2, MST1, YAP1, and TAZ, play a key role in upholding the structural integrity of conventional tissue and cell equilibrium. When the Hippo signaling pathway has errors, it becomes a contributing factor to the progression and spread of tumors during cancer development. Based on this, the role of Hippo pathway signaling element gene mutation in predicting endometrial cancer is expected to be greatly improved.
+
+The project aims to develop a convolutional neural network (CNN) machine learning model to figure out if the presence of a gene mutation will help us in detecting that cancer. Investigating how genetic mutations influence the control of key components of the Hippo pathway, such as LATS1, LATS2, MST1, YAP1, and TAZ. The whole process includes importing libraries, data sources, exploratory data analysis (EDA), model architecture, and model performance evaluation. This project holds the promise of improving cancer detection techniques and enhancing treatment strategies, ultimately leading to better outcomes for patients. The classifier is identifying gene mutations mixed with non-genetic elements.
 # Import Libraries
 To run the code, open the Cancer_Prediction.ipynb file.
 ```
