@@ -3,7 +3,7 @@ Uterine Cancer Prediction using CNN
 # Overview
 # Import Libraries
 To run the code, open the Cancer_Prediction.ipynb file.
-#code
+# code
 
 # EDA
 # Model Architecture
